@@ -1,3 +1,3 @@
 # SimpleCloudUpdater
-simple .bat file to sync your own linux based cloud 
-Uses scp portocal seured by an ssh key
+simple .bat file to sync your own linux based cloud storage
+Uses scp protocol, secured by an ssh key
