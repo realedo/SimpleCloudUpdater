@@ -1,4 +1,4 @@
+#!/bin/bash
 
-
-
-scp -i "SSH_KEY_LOCATION" -r  "root/user"@"Server_Ip":"REMOTE_FOLDER" "LOCAL_FOLDER"
+rsync -avz -e "ssh -i ~YOURSSHKEY LOCAL-FOLDER ubunto/(or chosen os)@vps-ip:/REMOTE-FOLDER
+rsync -avz -e "ssh -i ~YOURSSHKEY ubunto/(or chosen os)@vps-ip:/REMOTE-FOLDER LOCAL-FOLDER
